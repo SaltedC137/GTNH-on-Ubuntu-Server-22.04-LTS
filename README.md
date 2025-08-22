@@ -1,5 +1,3 @@
-
-
 # 安装系统
 
 ## 下载镜像
@@ -30,31 +28,31 @@ x86_64
 
 使用 Rufus 制作启动盘
 
-![[Pasted image 20250805172901.png]]
+![](png/Pasted%20image%2020250805172901.png)
 
 
 ## 安装说明
 
 进入 GNU 界面选择 Try or Install Ubuntu Server
-![[Pasted image 20250805175350.png]]
+![](png/Pasted%20image%2020250805175350.png)
 ***
-![[Pasted image 20250805175625.png]]
+![](png/Pasted%20image%2020250805175625.png)
 ***
-![[Pasted image 20250805175654.png]]
+![](png/Pasted%20image%2020250805175654.png)
 ***
-![[Pasted image 20250805175742.png]]
+![](png/Pasted%20image%2020250805175742.png)
 
 ### IP 设置
-![[Pasted image 20250805175835.png]]
+![](png/Pasted%20image%2020250805175835.png)
 ***
 选择 Manual 将 IP 固定下来
-![[Pasted image 20250805175917.png]]
+![](png/Pasted%20image%2020250805175917.png)
 ***
 镜像源建议改成阿里的源
-![[Pasted image 20250805180234.png]]
+![](png/Pasted%20image%2020250805180234.png)
 ### 分区设置
-![[Pasted image 20250805180348.png]]
-![[Pasted image 20250805200000.png]]
+![](png/Pasted%20image%2020250805180348.png)
+![](png/Pasted%20image%2020250805200000.png)
 #### EFI 系统分区（/boot/efi）
 （1）大小：300 MB – 1 GB
 （2）类型：主分区
@@ -153,18 +151,18 @@ MBR 分区表：通常作为逻辑分区（受限于 4 主分区限制，需先�
 
 ### 账户设置
 账号密码务必记牢，本服务器搭建旨在通过 Sakura Frp 内网穿透进行，故不需要强密码
-![[Pasted image 20250805181256.png]]
+![](png/Pasted%20image%2020250805181256.png)
 ### SSH 安装（务必安装）
-![[Pasted image 20250805181658.png]]
+![](png/Pasted%20image%2020250805181658.png)
 ## SSH 设置 (慎用)
 找到密码相关直接关闭
-![[Pasted image 20250805182551.png]]
+![](png/Pasted%20image%2020250805182551.png)
 ***
-![[Pasted image 20250805182730.png]]
+![](png/Pasted%20image%2020250805182730.png)
 
 ### SSH 连接
 使用 vscode 进行连接
-![[Pasted image 20250805184650.png]]
+![](png/Pasted%20image%2020250805184650.png)
 
 ## 安装 GT_New_Horizons_2.7.4_Server_Java_8
 
@@ -299,7 +297,7 @@ GregTech:New Horizons客户端以及服务端都基于Minecraft Java Edition 1.7
 
 通过 Windows 的 scp 命令将包上传至服务器
 
-![[Pasted image 20250805190349.png]]
+![](png/Pasted%20image%2020250805190349.png)
 
 安装解压工具:
 
@@ -785,3 +783,4 @@ lsb_release -a
 echo $DESKTOP_SESSION
 systemctl --version | head -1
 ```
+
